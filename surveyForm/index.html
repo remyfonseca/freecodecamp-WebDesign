@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Feedback do Café Artesanal</title>
+</head>
+<body>
+    <main>
+        <h1 id="title">Formulário de Satisfação <br>Café Artesanal</h1>
+        <p id="description">Sua opinião é importante para nós! Queremos saber como foi sua experiência no nosso café.</p> <hr>
+
+    <form id="survey-form">
+        <label for="name-label" id="name-label">Qual seu nome?</label> 
+        <input type="text" name="name-label" id="name" placeholder="Digite seu nome" required>
+        
+        <label for="email-label" id="email-label">Qual seu e-mail?</label> 
+        <input type="email" name="email-label" id="email" placeholder="Digite seu e-mail" required>
+        
+        <label for="number-label" id="number-label">Qual a sua idade?</label> 
+        <input type="number" name="number-label" id="number" min="18" max="100" placeholder="Digite sua idade">
+
+        <label for="dropdown">Qual sua bebida favorita?</label>
+        <select id="dropdown"> 
+            <option value="cafe">Café Expresso</option>
+            <option value="latte">Café Latte</option>
+            <option value="capuccino">Cappuccino</option>
+            <option value="chai">Chai Latte</option>
+        </select>
+
+        <label for="radio">Como você avaliaria a qualidade do café?</label>
+        <input type="radio" name="radio" value="excelente"> Excelente 
+        <input type="radio" name="radio" value="bom"> Bom
+        <input type="radio" name="radio" value="regular"> Regular
+        <input type="radio" name="radio" value="ruim"> Ruim   
+
+        <label for="checkbox">Você gostaria de sugerir alguma nova bebida para o menu?</label>
+        <input type="checkbox" name="ideias" value="novo-cafe"> Novo tipo de café
+        <input type="checkbox" name="ideias" value="sanduiche"> Sanduíches
+        <input type="checkbox" name="ideias" value="doce"> Doces 
+
+        <label for="textarea">Comentários adicionais:</label>
+        <textarea id="textarea" rows="3" cols="30" placeholder="Digite seus comentários, sugestões ou qualquer outra opinião sobre sua experiência no nosso café"></textarea>
+
+        <input type="submit" value="Enviar Feedback" id="submit">
+    </form>
+    </main>
+</body>
+</html>
