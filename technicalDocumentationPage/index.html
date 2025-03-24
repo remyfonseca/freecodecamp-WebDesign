@@ -8,26 +8,26 @@
 </head>
 <body>
     <nav id="navbar">
-        <header>JS Documentation</header>
+        <header>JS Documentação</header>
         <ul id="ul-navbar">
-            <li><a href="#Introduction" class="nav-link">Introduction</a></li>
-            <li><a href="#What_you_should_already_know" class="nav-link">What You Should Already Know</a></li>
-            <li><a href="#JavaScript_and_Java" class="nav-link">Javascript and Java</a></li>
+            <li><a href="#Introducao" class="nav-link">Introdução</a></li>
+            <li><a href="#O_que_voce_ja_deve_saber" class="nav-link">O que você já deve saber</a></li>
+            <li><a href="#JavaScript_e_Java" class="nav-link">Javascript e Java</a></li>
             <li><a href="#Hello_world" class="nav-link">Hello World</a></li>
-            <li><a href="#Variables" class="nav-link">Variables</a></li>
-            <li><a href="#Declaring_variables" class="nav-link">Declaring Variables</a></li>
-            <li><a href="#Global_variables" class="nav-link">Global Variables</a></li>
-            <li><a href="#Constants" class="nav-link">Constants</a></li>
-            <li><a href="#Data_types" class="nav-link">Data Types</a></li>
-            <li><a href="#if...else_statement" class="nav-link">if...else Statement</a></li>
-            <li><a href="#While_statement" class="nav-link">While Statement</a></li>
-            <li><a href="#Function_declarations" class="nav-link">Function Declarations</a></li>
-            <li class="last-new-link"><a href="#Reference" class="nav-link ">Reference</a></li>
+            <li><a href="#Variaveis" class="nav-link">Variavéis</a></li>
+            <li><a href="#Declarando_variaveis" class="nav-link">Declarando Variavéis</a></li>
+            <li><a href="#Variaveis_Globais" class="nav-link">Variavéis Globais</a></li>
+            <li><a href="#Constantes" class="nav-link">Constantes</a></li>
+            <li><a href="#Tipos_dados" class="nav-link">Tipos de Dados</a></li>
+            <li><a href="#Declaracao_if_else" class="nav-link">Declaração if...else</a></li>
+            <li><a href="#Declaracao_While" class="nav-link">Declaração While</a></li>
+            <li><a href="#Declaracao_Funcoes" class="nav-link">Declaração de Funções</a></li>
+            <li class="last-new-link"><a href="#Referencia" class="nav-link ">Referencia</a></li>
         </ul> 
     </nav>
     <main id="main-doc">
-        <section class="main-section" id="Introduction">
-            <h2>Introdução</h2>
+        <section class="main-section" id="Introducao">
+            <header>Introdução</header>
             <p>JavaScript é uma linguagem de script multiplataforma e orientada a objetos. É uma linguagem pequena e leve. Dentro de um ambiente de hospedagem (por exemplo, um navegador web), o JavaScript pode ser conectado aos objetos desse ambiente para fornecer controle programático sobre eles.</p>
             <p>JavaScript contém uma biblioteca padrão de objetos, como Array, Date e Math, e um conjunto básico de elementos da linguagem, como operadores, estruturas de controle e declarações. O núcleo do JavaScript pode ser estendido para uma variedade de propósitos, complementando-o com objetos adicionais; por exemplo:</p>
 
@@ -36,8 +36,8 @@
             <li>O JavaScript do lado do servidor estende a linguagem principal fornecendo objetos relevantes para a execução do JavaScript em um servidor. Por exemplo, extensões do lado do servidor permitem que uma aplicação se comunique com um banco de dados, forneça continuidade de informação de uma invocação para outra da aplicação ou realize manipulações de arquivos em um servidor.</li>
           </ul>
         </section>
-        <section class="main-section" id="What_you_should_already_know">
-            <h2>O que você já deve saber</h2>
+        <section class="main-section" id="O_que_voce_ja_deve_saber">
+            <header>O que você já deve saber</header>
             <p>Este guia assume que você tem o seguinte conhecimento básico:</p>
             <ul>
                 <li>Um entendimento geral da Internet e da World Wide Web (WWW).</li>
@@ -45,14 +45,14 @@
                 <li>Alguma experiência em programação. Se você é novo em programação, tente um dos tutoriais vinculados na página principal sobre JavaScript.</li>
             </ul>
         </section>
-        <section class="main-section" id="JavaScript_and_Java">
-            <h2>JavaScript e Java</h2>
+        <section class="main-section" id="JavaScript_e_Java">
+            <header>JavaScript e Java</header>
             <p>JavaScript e Java são semelhantes em alguns aspectos, mas fundamentalmente diferentes em outros. A linguagem JavaScript se assemelha ao Java, mas não possui a tipagem estática e a verificação forte de tipos do Java. O JavaScript segue a maioria das sintaxes de expressão, convenções de nomenclatura e construções básicas de fluxo de controle do Java, o que foi a razão pela qual foi renomeado de LiveScript para JavaScript.</p>
             <p>Em contraste com o sistema de tempo de compilação de classes do Java, construído por declarações, o JavaScript suporta um sistema de tempo de execução baseado em um pequeno número de tipos de dados que representam valores numéricos, booleanos e de string. O JavaScript tem um modelo de objeto baseado em protótipo em vez do modelo de objeto baseado em classe mais comum. O modelo baseado em protótipo fornece herança dinâmica; ou seja, o que é herdado pode variar para objetos individuais. O JavaScript também suporta funções sem quaisquer requisitos declarativos especiais. As funções podem ser propriedades de objetos, executando como métodos de tipagem fraca.</p>
             <p>JavaScript é uma linguagem de forma muito livre comparada ao Java. Você não precisa declarar todas as variáveis, classes e métodos. Você não precisa se preocupar se os métodos são públicos, privados ou protegidos, e não precisa implementar interfaces. Variáveis, parâmetros e tipos de retorno de funções não são explicitamente tipados.</p>
         </section>
         <section class="main-section" id="Hello_world">
-            <h2>Olá, mundo</h2>
+            <header>Hello World</header>
             <p>Para começar a escrever JavaScript, abra o Scratchpad e escreva seu primeiro código JavaScript "Olá, mundo":</p>
             <code>function greetMe(yourName) {
                     alert("Olá " + yourName);
@@ -61,14 +61,14 @@
             </code>
             <p>Selecione o código no bloco e pressione Ctrl+R para vê-lo se desdobrar no seu navegador!</p>
         </section>
-        <section class="main-section" id="Variables">
-            <h2>Variáveis</h2>
+        <section class="main-section" id="Variaveis">
+            <header>Variáveis</header>
             <p>Você usa variáveis como nomes simbólicos para valores em sua aplicação. Os nomes das variáveis, chamados identificadores, seguem certas regras.</p>
             <p>Um identificador JavaScript deve começar com uma letra, sublinhado (_) ou cifrão ($); os caracteres subsequentes também podem ser dígitos (0-9). Como o JavaScript diferencia maiúsculas de minúsculas, as letras incluem os caracteres "A" a "Z" (maiúsculas) e os caracteres "a" a "z" (minúsculas).</p>
             <p>Você pode usar letras ISO 8859-1 ou Unicode, como å e ü, em identificadores. Você também pode usar sequências de escape Unicode como caracteres em identificadores. Alguns exemplos de nomes válidos são Number_hits, temp99 e _name.</p>
         </section>
-        <section class="main-section" id="Declaring_variables">
-            <h2>Declarando variáveis</h2>
+        <section class="main-section" id="Declarando_variaveis">
+            <header>Declarando variáveis</header>
             <p>Você pode declarar uma variável de três maneiras:</p>
             <ul>
                 <li>Com a palavra-chave var. Por exemplo,</li>
@@ -82,14 +82,13 @@
                 <li>Essa sintaxe pode ser usada para declarar uma variável local de escopo de bloco. Veja o escopo da variável abaixo.</li>
             </ul>
         </section>
-
-        <section class="main-section" id="Global_variables"> 
-            <h2>Variáveis globais</h2>
+        <section class="main-section" id="Variaveis_Globais"> 
+            <header>Variáveis globais</header>
             <p>Variáveis globais são, na verdade, propriedades do objeto global. Em páginas web, o objeto global é window, então você pode definir e acessar variáveis globais usando a sintaxe window.variável.</p>
             <p>Consequentemente, você pode acessar variáveis globais declaradas em uma janela ou frame de outra janela ou frame, especificando o nome da janela ou frame. Por exemplo, se uma variável chamada phoneNumber for declarada em um documento, você pode se referir a essa variável de um iframe como parent.phoneNumber.</p>
         </section>
-        <section class="main-section" id="Constants"> 
-            <h2>Constantes</h2>
+        <section class="main-section" id="Constantes"> 
+            <header>Constantes</header>
             <p>Você pode criar uma constante nomeada e somente leitura com a palavra-chave const. A sintaxe de um identificador de constante é a mesma que a de um identificador de variável: deve começar com uma letra, sublinhado ou cifrão e pode conter caracteres alfabéticos, numéricos ou sublinhados.</p>
             <code>const PI = 3.14;</code>
             <p>Uma constante não pode mudar de valor por atribuição ou ser redeclarada enquanto o script estiver em execução. Ela deve ser inicializada com um valor.</p>
@@ -101,8 +100,8 @@
             <p>No entanto, os atributos do objeto não são protegidos, então a seguinte declaração é executada sem problemas.</p>
             <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code>
         </section>
-        <section class="main-section" id="Data_types"> 
-            <h2>Tipos de dados</h2>
+        <section class="main-section" id="Tipos_dados"> 
+            <header>Tipos de dados</header>
             <p>O padrão ECMAScript mais recente define sete tipos de dados:</p>
             <ul>
                 <li>Seis tipos de dados que são primitivos:</li>
@@ -118,8 +117,8 @@
             </ul>
             <p>Embora esses tipos de dados sejam relativamente poucos, eles permitem que você execute funções úteis em suas aplicações. Objetos e funções são os outros elementos fundamentais na linguagem. Você pode pensar em objetos como contêineres nomeados para valores, e funções como procedimentos que sua aplicação pode executar.</p>
         </section>
-        <section class="main-section" id="if...else_statement"> 
-            <h2>Declaração if...else</h2>
+        <section class="main-section" id="Declaracao_if_else"> 
+            <header>Declaração if...else</header>
             <p>Use a declaração if para executar uma declaração se uma condição lógica for verdadeira. Use a cláusula else opcional para executar uma declaração se a condição for falsa. Uma declaração if tem a seguinte aparência:</p>
             <code>if (condição) {
                         declaração_1;
@@ -129,8 +128,8 @@
             <p>condição pode ser qualquer expressão que avalie para true ou false. Veja Boolean para uma explicação do que avalia para true e false. Se a condição avaliar para true, declaração_1 é executada; caso contrário, declaração_2 é executada. declaração_1 e declaração_2 podem ser qualquer declaração, incluindo declarações if aninhadas.</p>
 
         </section>
-        <section class="main-section" id="While_statement"> 
-            <h2>Declaração while</h2>
+        <section class="main-section" id="Declaracao_While"> 
+            <header>Declaração while</header>
             <p>Uma declaração while executa suas declarações enquanto uma condição especificada for avaliada como verdadeira. Uma declaração while tem a seguinte aparência:</p>
             <code>while (condição) {
                         declaração;
@@ -149,8 +148,8 @@
             </ul>
             <p>Após completar o terceiro passe, a condição n < 3 não é mais verdadeira, então o loop termina.</p>
         </section>
-        <section class="main-section" id="Function_declarations">
-            <h2>Declarações de função</h2>
+        <section class="main-section" id="Declaracao_Funcoes">
+            <header>Declarações de função</header>
             <p>Uma definição de função (também chamada de declaração de função ou declaração de função) consiste na palavra-chave function, seguida por:</p>
             <ul>
                 <li>O nome da função.</li>
@@ -164,8 +163,8 @@
             <p>A função square recebe um argumento, chamado número. A função consiste em uma declaração que diz para retornar o argumento da função (ou seja, número) multiplicado por si mesmo. A declaração return especifica o valor retornado pela função.</p>
 
         </section>
-        <section class="main-section" id="Reference">
-            <h2>Referência</h2>
+        <section class="main-section" id="Referencia">
+            <header>Referência</header>
             <ul>
                 <li>Toda a documentação nesta página foi retirada de <a href="https://developer.mozilla.org/en-US/" target="_blank" >MDN</a></li>
             </ul>

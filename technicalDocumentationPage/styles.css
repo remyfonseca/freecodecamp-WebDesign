@@ -22,18 +22,15 @@ body{
     padding: 20px;
 }
 
-h2,header{
+header{
     color: black;
     font-size: 1.4em;
-    font-weight: thin;
+    font-weight: bold;
+    padding: 10px 0 0;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
-header{
-    font-weight: bold;
-    padding: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-}
 p{
     text-align: justify;
 }
