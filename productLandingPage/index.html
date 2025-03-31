@@ -1,101 +1,139 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Landing Page - Barbearia</title>
-</head>
-<body>
+  </head>
+  <body>
     <header id="header">
-        <div id="header-img">
-            <img src="./assets/barbearia.png" alt="Logo" class="logo">
-        </div>
-        <nav id="nav-bar">
-            <ul>
-                <li><a class="nav-link" href="#destaque">Destaque</a></li>
-                <li><a class="nav-link" href="#barbearia">Barbearia</a></li>
-                <li><a class="nav-link" href="#precos">Preços</a></li>
-            </ul>
-        </nav>
+      <span>
+        <img src="./assets/barbearia.png" alt="Logo" class="logo" />
+      </span>
+      <nav id="nav-bar" role="navigation" aria-label="Menu principal">
+        <ul>
+          <li><a class="nav-link" href="#destaque">Destaque</a></li>
+          <li><a class="nav-link" href="#barbearia">Barbearia</a></li>
+          <li><a class="nav-link" href="#precos">Preços</a></li>
+        </ul>
+      </nav>
     </header>
     <section id="hero">
-        <h2>teste, teste teste</h2>
-        <form id="form">
-            <input type="email" id="email" placeholder="Enter your email address" name="email" required>
-            <input type="submit" value="Get Started" id="submit">
-        </form>
+      <span
+        >Verifique a Disponibilidade<img
+          src="./assets/whatsapp.png"
+          alt="Whatsapp logo"
+          class="whatsapp"
+      /></span>
     </section>
 
-   <section class="container">
-    <div id="destaque">
+    <section class="container">
+      <div id="destaque">
         <div class="grid">
-            <div class="img-destaque">
-                <img src="./assets/titulo-corte.png" alt="Aprovação de Cortes" class="logo">
-            </div>
-            <div class="textos">
-                <h2>INFO 1</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor, quam animi, nesciunt mollitia aut unde ex, quis praesentium ut esse voluptatibus quidem debitis sed nulla iure. Beatae, minima ipsum?</p>
-            </div>
+          <div class="img-destaque">
+            <img
+              src="./assets/titulo-corte.png"
+              alt="Aprovação de Cortes"
+              class="logo"
+            />
+          </div>
+          <div class="textos">
+            <h2>Aprovação no Mercado</h2>
+            <p>
+              Nossa barbearia é reconhecida pela excelência no atendimento e
+              pelos cortes impecáveis. Contamos com a confiança de nossos
+              clientes e a aprovação de especialistas no ramo.
+            </p>
+          </div>
         </div>
         <div class="grid">
-            <div class="img-destaque">
-                <img src="./assets/oleo-de-barba.png" alt="Produtos de Cabelo e Barba" class="logo">
-            </div>
-            <div class="textos">
-                <h2>INFO 2</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor, quam animi, nesciunt mollitia aut unde ex, quis praesentium ut esse voluptatibus quidem debitis sed nulla iure. Beatae, minima ipsum?</p>
-            </div>
+          <div class="img-destaque">
+            <img
+              src="./assets/oleo-de-barba.png"
+              alt="Produtos de Cabelo e Barba"
+              class="logo"
+            />
+          </div>
+          <div class="textos">
+            <h2>Produtos de Qualidade</h2>
+            <p>
+              Utilizamos apenas produtos premium para cuidar do seu cabelo e
+              barba, garantindo hidratação, maciez e um acabamento perfeito a
+              cada serviço.
+            </p>
+          </div>
         </div>
         <div class="grid">
-            <div class="img-destaque">
-                <img src="./assets/cara.png" alt="Cortes de Cabelo e Barba" class="logo">
-            </div>
-            <div class="textos">
-                <h2>INFO 3</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor, quam animi, nesciunt mollitia aut unde ex, quis praesentium ut esse voluptatibus quidem debitis sed nulla iure. Beatae, minima ipsum?</p>
-            </div>
+          <div class="img-destaque">
+            <img
+              src="./assets/cara.png"
+              alt="Cortes de Cabelo e Barba"
+              class="logo"
+            />
+          </div>
+          <div class="textos">
+            <h2>Cabelo e Barba</h2>
+            <p>
+              Realizamos cortes modernos e clássicos, sempre respeitando seu
+              estilo e preferências. Além disso, oferecemos serviços
+              especializados para a barba, deixando-a alinhada e bem cuidada.
+            </p>
+          </div>
         </div>
-    </div>
-    <div id="barbearia">
-        <iframe  id="video"width="560" height="315" src="https://www.youtube.com/embed/9rECW6R_uL0?si=T9QTUkcf8Ajp5fOU&amp;start=1" title="Ilustação Video Barbearia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-    <div id="precos">
+      </div>
+      <div id="barbearia">
+        <h2>Conheça nosso ambiente!</h2>
+        <iframe
+          id="video"
+          width="580"
+          height="315"
+          src="https://www.youtube.com/embed/9rECW6R_uL0?si=T9QTUkcf8Ajp5fOU&amp;start=1"
+          title="Ilustação Video Barbearia"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div id="precos">
         <div class="pacote">
-            <div class="level">Corte TESTE</div>
-            <h2>25R$</h2>
-            <ol>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-            </ol>
+          <div class="level">Corte Degradê</div>
+          <h2>R$ 25</h2>
+          <ol>
+            <li>Estilo moderno e versátil</li>
+            <li>Acabamento preciso na máquina</li>
+            <li>Finalização com produtos de qualidade</li>
+          </ol>
         </div>
         <div class="pacote">
-            <div class="level">Corte TESTE</div>
-            <h2>25R$</h2>
-            <ol>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-            </ol>
+          <div class="level">Corte Tesoura</div>
+          <h2>R$ 28</h2>
+          <ol>
+            <li>Técnica detalhada com tesoura</li>
+            <li>Ideal para cortes clássicos e longos</li>
+            <li>Finalização com pomada ou spray</li>
+          </ol>
         </div>
         <div class="pacote">
-            <div class="level">Corte TESTE</div>
-            <h2>25R$</h2>
-            <ol>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-            </ol>
+          <div class="level">Cabelo + Barba</div>
+          <h2>R$ 35</h2>
+          <ol>
+            <li>Corte de cabelo ao seu estilo</li>
+            <li>Barba alinhada e bem definida</li>
+            <li>Toalha quente para um acabamento premium</li>
+          </ol>
         </div>
-    </div>
-   </section>
-
-   <footer class="footer">
-        <p>Copyright 2025, Remy Fonseca</p>
-   </footer>
-</body>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>
+        &copy; 2025
+        <a href="https://github.com/remyfonseca" target="_blank"
+          >Remy Fonseca</a
+        >
+        - Todos os direitos reservados.
+      </p>
+    </footer>
+  </body>
 </html>
