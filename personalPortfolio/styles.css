@@ -1,0 +1,170 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}   
+
+#navbar{
+    background-color: #be3144;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-list{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 16px 11px;
+    transition: 0.3s;
+}
+
+a:hover{
+    background-color: #45567d;
+    color: #be3144;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+#welcome-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    background: linear-gradient(
+        62deg, 
+        #3a3d40 0%,
+        #181719 100%
+    );
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#welcome-section p{
+    color: #be3144;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.projects{
+    margin: 0;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #45567d;
+}
+
+h2{
+    font-size: 40px;
+    color: white;
+}
+
+.project-img{
+    height: calc(100% - 48px);
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-title{
+    color: white;
+    width: 100%;
+    background-color: #303841;
+    margin: 0;
+    padding: 16px 0;
+}
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px,1fr));
+    grid-gap: 64px;
+    width: 100%;
+    max-width: 1280px;
+    height: 100vh;
+    margin: 0 auto;
+    margin-bottom: 96px;
+    transition: 0.3s;
+}
+
+.project-title:hover::before {
+    content: "<";
+    margin-right: 8px;
+    color: #be3144; 
+}
+
+.project-title:hover::after {
+    content: "/>";
+    margin-left: 8px;
+    color: #be3144; 
+}
+
+#contact{
+    background-color: #303841;
+    width: 100%;
+    height: 80vh;
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact p{
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    font-size: 17.6px;
+}
+
+#contact-links a{
+    margin: 5px 8px;
+}
+@media screen and (max-width: 768px){
+    #navbar{
+        justify-content: center;
+        align-items: center;
+    }
+    #nav-list{
+        flex-direction: row;
+        align-items: center;
+    }
+    #welcome-section p{
+        font-size: 16px;
+    }
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+        max-width: 100%;
+    }
+    a{
+        padding: 10px 20px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+    
+}
